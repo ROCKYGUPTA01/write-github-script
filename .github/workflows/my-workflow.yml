@@ -1,10 +1,10 @@
-name: Learning GitHub Script
+name:  rocky
 
 on:
   issues:
     types: [opened]
 
-jobs:
+jobs: students
   comment:
     runs-on: ubuntu-latest
     steps:
